@@ -30,8 +30,10 @@ Make sure you are in the docker container and in jetson-inference/python/trainin
 Run the onnx export script.
 python3 onnx_export.py --model-dir=models/smile_non
 
-Exit the docker container by pressing Ctl + D.
-
+Exit the docker container by pressing
+```
+Ctl + D.
+```
 Set the NET and DATASET variables
 ```
 NET=models/smile_non
