@@ -4,6 +4,9 @@ This model categorizes human expressions, some are negative, some are positive. 
 The model was created based on jetson nano and trained on datasets of smiles and non-smiles
 <h1>Running this project:</h1>
 Change directories into jetson-inference/python/training/classification/data
+
+
+
 [smile_non.zip](https://github.com/user-attachments/files/16533048/smile_non.zip)
 
  Run this command to download the dataset. 
