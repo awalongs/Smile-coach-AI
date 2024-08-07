@@ -33,8 +33,11 @@ python3 onnx_export.py --model-dir=models/smile_non
 Exit the docker container by pressing Ctl + D.
 
 Set the NET and DATASET variables
+```
 NET=models/smile_non
 DATASET=data/smile_non
+```
+
 
 Run this command to see how it operates on an image from the cat folder.
 ```
