@@ -7,18 +7,27 @@ Change directories into jetson-inference/python/training/classification/data
 [smile_non.zip](https://github.com/user-attachments/files/16533048/smile_non.zip)
 
  Run this command to download the dataset. 
+ ```
 wget https://github.com/user-attachments/files/16533048/smile_non.zip
+```
 
 Run this command to unzip the file you downloaded. 
+
+```
 unzip smile_non.zip -d jetson-inference/python/training/classification/data
+```
 
 Once that has run and you're still back in the jetson-inference folder, run
+```
 ./docker/run.sh
+```
 
 From inside the Docker container, change directories so you are in jetson-inference/python/training/classification
 
 run
+```
 python3 train.py --model-dir=models/smile_non data/smile_non
+```
 
 While it's running, you can stop it at any time using Ctl+C. You can also restart the training again later using the --resume and --epoch-start flags, so you don't need to wait for training to complete before testing out the model.
 
