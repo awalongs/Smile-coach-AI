@@ -37,6 +37,9 @@ NET=models/smile_non
 DATASET=data/smile_non
 
 Run this command to see how it operates on an image from the cat folder.
+```
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Aaron_Guiel_0001.jpg  output.jpg
+
+```
 
 Then you can view the results
