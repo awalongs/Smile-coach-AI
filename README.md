@@ -22,18 +22,22 @@ python3 train.py --model-dir=models/smile_non data/smile_non
 
 While it's running, you can stop it at any time using Ctl+C. You can also restart the training again later using the --resume and --epoch-start flags, so you don't need to wait for training to complete before testing out the model.
 
-if allocate memory is displayed,enter it:  
+if allocate memory is displayed,enter it: 
+```
 echo 1 | sudo tee /proc/sys/vm/overcommit_memory
+```
 
 Make sure you are in the docker container and in jetson-inference/python/training/classification
  
 Run the onnx export script.
+```
 python3 onnx_export.py --model-dir=models/smile_non
+```
+
 
 Exit the docker container by pressing
-```
 Ctl + D.
-```
+
 Set the NET and DATASET variables
 ```
 NET=models/smile_non
