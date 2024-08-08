@@ -69,7 +69,8 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 
 Then you can view the results
 
-![test1](https://github.com/user-attachments/assets/056ca6cb-8513-44b4-90ac-33b074fdcd53)
+![text1](https://github.com/user-attachments/assets/8aa515d7-2655-4cb4-9412-d8f3db1725d9)
+
 
 
 ![text2](https://github.com/user-attachments/assets/060b1f1f-ef31-4f07-9cc5-ac14d442d059)
