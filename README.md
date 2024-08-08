@@ -59,7 +59,9 @@ DATASET=data/smile_non
 
 Run this command to see how it operates on an image from the smile folder.
 ```
-imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Aaron_Guiel_0001.jpg  output.jpg
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Aaron_Guiel_0001.jpg  output1.jpg
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Abdel_Aziz_AI-Hakim_0001.jpg  output2.jpg
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Ahmed_Ahmed_0001.jpg  output3.jpg
 
 ```
 
